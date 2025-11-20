@@ -8,6 +8,7 @@ To reproduce the result, please following the procedure.
 - download the polyone dataset from [here]([https://zenodo.org/records/11246593](https://zenodo.org/records/7766806)) and place the files in proper location.
 - 'PolyBert.pt, Property_Transformer.pt' locate in '/ckpt' and extract them
 - run polyone_token_extract.py to preprocess the polyOne dataset
+- create conda env using MMPAE.yaml
 
 #### Train MMPAE
 - python train_MMPAE.py --model_size large --loss_type CwA --temp 0.2 --beta 1000 --alpha 100 ---epochs 500 --batch_size 512 --interval 10 --dec_layers 12 --exp_name test
