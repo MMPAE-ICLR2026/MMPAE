@@ -98,7 +98,7 @@ config = None
 
 
 def set_config(args):
-    fname = f'path of config file.   For example: ./configs/Inverse_CwA.yaml'
+    fname = f'./configs/Inverse_CwA_large.yaml'
     with open(fname, 'r') as y_file:
         yaml_file = yaml.load(y_file, Loader=yaml.FullLoader)
         config = DottedDict(dict(yaml_file))
