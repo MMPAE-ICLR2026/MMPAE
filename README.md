@@ -6,6 +6,7 @@ To reproduce the result, please following the procedure.
 
 #### Environment configuration.
 - download the polyone dataset from [here]([https://zenodo.org/records/11246593](https://zenodo.org/records/7766806)) and place the files in proper location.
+- download the polybert and transpolymer checkpoint from [here](https://zenodo.org/records/17665048) and place the ckeckpoint in proper location
 - 'PolyBert.pt, Property_Transformer.pt' locate in '/ckpt' and extract them
 - run polyone_token_extract.py to preprocess the polyOne dataset
 - create conda env using MMPAE.yaml
